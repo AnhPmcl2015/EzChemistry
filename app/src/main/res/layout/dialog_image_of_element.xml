@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="300dp"
+    android:layout_height="200dp">
+    <ImageView
+        android:scaleType="fitXY"
+        android:id="@+id/imgImageDetail_Dialog"
+        android:contentDescription="@string/content_description_image_of_element"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:src="@drawable/logo_1"/>
+</LinearLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2859c1</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorText">#402020</color>
+
+    <color name="background_AlkaliMetal">#FFA265</color>
+    <color name="background_AlkaliEarthMetal">#F8D161</color>
+    <color name="background_TranstionMetal">#FEFA8E</color>
+    <color name="background_OtherMetal">#F6DB81</color>
+    <color name="background_Metalloid">#E7ADF5</color>
+    <color name="background_OtherNonmetal">#FF83DB</color>
+    <color name="background_Halogen">#BEE4BF</color>
+    <color name="background_NobleGas">#9AE0F5</color>
+    <color name="background_Other">#E6E6E6</color>
+    <color name="background_Hydro">#FAFAFA</color>
+
+    <color name="text_Hydro">#FF160F</color>
+    <color name="text_Solid">#000000</color>
+    <color name="text_Liquid">#29ABE2</color>
+    <color name="text_Gas">#FF0000</color>
+    <color name="text_NotFoundInNatural">#39B54A</color>
+
+    <color name="background_Search">#6d768b</color>
+    <color name="text_Search">#ffffff</color>
+
+    <color name="background_color_title_detail">#496ebc</color>
+</resources>

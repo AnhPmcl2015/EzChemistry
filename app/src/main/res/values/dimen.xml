@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="distance">2dp</dimen>
+    <dimen name="itemHeight">27dp</dimen>
+    <dimen name="itemWitdth">27dp</dimen>
+    <dimen name="textSize">10dp</dimen>
+    <dimen name="margin">4dp</dimen>
+    <dimen name="textSizeDetail">14dp</dimen>
+    <dimen name="textSymbol">40dp</dimen>
+    <dimen name="marginLeftOfElectronegativity">10dp</dimen>
+    <dimen name="marginBottomOfElectronegativity">14dp</dimen>
+    <dimen name="textSizeOfElectronegativity">14dp</dimen>
+    <dimen name="textSizeOfElectronic_cenfiguration">12dp</dimen>
+    <dimen name="textNameDetail">20dp</dimen>
+    <dimen name="marginLeftSymbolDetail">20dp</dimen>
+    <dimen name="textAtomicWeightDetail">15dp</dimen>
+    <dimen name="marginStart_imageView_Background_color">100dp</dimen>
+
+    <dimen name="imageView_width_background_color_over5inch">230dp</dimen>
+    <dimen name="imageView_height_background_color_over5inch">130dp</dimen>
+
+    <dimen name="imageView_width_background_color_under5inch">190dp</dimen>
+    <dimen name="imageView_height_background_color_under5inch">100dp</dimen>
+
+
+    <dimen name="listView_marginEnd">75dp</dimen>
+    <dimen name="listView_marginStart">75dp</dimen>
+
+    <dimen name="padding_Background_Search">10dp</dimen>
+    <dimen name="imageSize_Search">40dp</dimen>
+    <dimen name="marginStart_textSearch">5dp</dimen>
+    <dimen name="view_height">3dp</dimen>
+    <dimen name="marginStart_view">2dp</dimen>
+
+    <dimen name="button_Size_Background_Color">40dp</dimen>
+</resources>

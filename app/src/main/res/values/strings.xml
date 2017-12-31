@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">EzChemistry</string>
+
+    <string name="name_Search">Hydrogen</string>
+    <string name="atomic_weight_Search">1 (g/mol)</string>
+
+    <string name="context_description_of_button_element">Button of element</string>
+    <string name="image_background_color_of_element">Background color</string>
+    <string name="content_description_image_of_element">Image of element</string>
+
+    <string name="annotations_of_button_detail">Annotations of button detail</string>
+</resources>

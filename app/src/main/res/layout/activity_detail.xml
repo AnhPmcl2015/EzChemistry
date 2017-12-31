@@ -1,0 +1,1003 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:layout_marginStart="5dp"
+            android:id="@+id/layout_ImageOfElement"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btnShowImageOfElement"
+                android:background="@android:color/transparent"
+                android:layout_width="200dp"
+                android:layout_height="180dp" />
+
+            <ImageView
+                android:id="@+id/imgImageDetail"
+                android:contentDescription="@string/content_description_image_of_element"
+                android:layout_marginStart="@dimen/margin"
+                android:layout_marginTop="@dimen/margin"
+                android:scaleType="fitXY"
+                android:src="@drawable/logo_1"
+                android:layout_width="250dp"
+                android:layout_height="230dp" />
+
+
+            <LinearLayout
+                android:background="#fff"
+                android:layout_gravity="bottom"
+                android:orientation="horizontal"
+                android:id="@+id/layoutName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:textColor="@color/colorPrimary"
+                    android:fontFamily="Myriad Pro"
+                    android:text="H"
+                    android:textSize="@dimen/textSymbol"
+                    android:id="@+id/txtSymbolDetail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <LinearLayout
+                    android:layout_marginStart="@dimen/margin"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:textColor="@color/colorPrimaryDark"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginStart="15dp"
+                        android:textSize="@dimen/textNameDetail"
+                        android:text="Hydro"
+                        android:id="@+id/txtNameDetail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/txtAtomic_weightDetail_1"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginStart="15dp"
+                        android:textSize="@dimen/textAtomicWeightDetail"
+                        android:text="1 (g/mol)"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+            </LinearLayout>
+        </FrameLayout>
+
+        <LinearLayout
+            android:background="@color/background_color_title_detail"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="15dp"
+            android:layout_below="@id/layout_ImageOfElement"
+            android:orientation="vertical"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_weight="0.5"
+                    android:text="Latin name: "
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:textColor="#fff"
+                    android:id="@+id/txtLatinNameDetail"
+                    android:text="Hydrogen"
+                    android:layout_weight="0.5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <View
+                android:background="@color/colorPrimary"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"/>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_weight="0.5"
+                    android:text="Period: "
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_weight="0.5"
+                    android:text="Group:"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:textColor="#fff"
+                    android:id="@+id/txtPeriodDetail"
+                    android:layout_weight="0.5"
+                    android:text="   1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:textColor="#fff"
+                    android:id="@+id/txtGroupDetail_1"
+                    android:layout_weight="0.5"
+                    android:text="   1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_marginStart="5dp"
+            android:layout_toEndOf="@id/layout_ImageOfElement"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:padding="5dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:background="@color/background_color_title_detail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:textColor="#fff"
+                        android:text="Overview"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_marginStart="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_weight="0.5"
+                            android:text="Discovery year:"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+
+                        <TextView
+                            android:layout_weight="0.5"
+                            android:text="Cas number:"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_marginStart="20dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_weight="0.5"
+                            android:textColor="@color/text_Solid"
+                            android:text="1900"
+                            android:id="@+id/txtDiscoveryYearDetail"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+
+                        <TextView
+                            android:layout_weight="0.5"
+                            android:textColor="@color/text_Solid"
+                            android:text="1700-9-1"
+                            android:id="@+id/txtCasNumberDetail"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <View
+                        android:background="@color/colorPrimary"
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"/>
+
+                    <TextView
+                        android:text="Discoverer:"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:textColor="@color/text_Solid"
+                        android:text="The Anh"
+                        android:id="@+id/txtDiscovererDetail"
+                        android:layout_marginStart="20dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                    <View
+                        android:background="@color/colorPrimary"
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"/>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_weight="0.5"
+                            android:text="Lattice:"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+
+                        <TextView
+                            android:layout_weight="0.5"
+                            android:text="Lattice constant:"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_marginStart="20dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_weight="0.5"
+                            android:textColor="@color/text_Solid"
+                            android:text="HEX"
+                            android:id="@+id/txtLatticeDetail"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+
+                        <TextView
+                            android:layout_weight="0.5"
+                            android:textColor="@color/text_Solid"
+                            android:text="289"
+                            android:id="@+id/txtLatticeConstantDetail"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <View
+                        android:background="@color/colorPrimary"
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"/>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_weight="0.8"
+                            android:text="Sources:"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+
+                        <TextView
+                            android:textColor="@color/text_Solid"
+                            android:id="@+id/txtSourcesDetail"
+                            android:layout_weight="0.2"
+                            android:text="Air"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_weight="0.8"
+                            android:text="Color:"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+
+                        <TextView
+                            android:layout_weight="0.2"
+                            android:textColor="@color/text_Solid"
+                            android:text="Yellow"
+                            android:id="@+id/txtColorDetail"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <LinearLayout
+                            android:layout_margin="5dp"
+                            android:background="#99b5dc"
+                            android:layout_weight="0.5"
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:textSize="20sp"
+                                android:layout_gravity="center"
+                                android:text="Electrons"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+
+                            <TextView
+                                android:textSize="20sp"
+                                android:text="1"
+                                android:textColor="@color/text_Solid"
+                                android:id="@+id/txtElectronsDetail"
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_margin="5dp"
+                            android:background="#99b5dc"
+                            android:layout_weight="0.5"
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:textSize="20sp"
+                                android:layout_gravity="center"
+                                android:text="Protons"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+
+                            <TextView
+                                android:textSize="20sp"
+                                android:text="1"
+                                android:textColor="@color/text_Solid"
+                                android:id="@+id/txtProtonsDetail"
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_margin="5dp"
+                            android:background="#99b5dc"
+                            android:layout_weight="0.5"
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:textSize="20sp"
+                                android:layout_gravity="center"
+                                android:text="Neutrons"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+
+                            <TextView
+                                android:textSize="20sp"
+                                android:text="1"
+                                android:textColor="@color/text_Solid"
+                                android:id="@+id/txtNeutronsDetail"
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:background="@color/background_color_title_detail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:textColor="#fff"
+                        android:text="Properties"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+                <LinearLayout
+                android:orientation="vertical"
+                android:layout_marginStart="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_weight="0.5"
+                        android:text="Atomic weight:"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:layout_weight="0.5"
+                        android:text="Density:"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_marginStart="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_weight="0.5"
+                        android:textColor="@color/text_Solid"
+                        android:text="1 (g/mol)"
+                        android:id="@+id/txtAtomic_weightDetail_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:layout_weight="0.5"
+                        android:textColor="@color/text_Solid"
+                        android:text="1 (g/cm^3)"
+                        android:id="@+id/txtDensityDetail"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <View
+                    android:background="@color/colorPrimary"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"/>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_weight="0.5"
+                        android:text="Melting point:"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:layout_weight="0.5"
+                        android:text="Boiling point:"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_marginStart="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_weight="0.5"
+                        android:textColor="@color/text_Solid"
+                        android:text="14 K"
+                        android:id="@+id/txtMeltingPointDetail"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:layout_weight="0.5"
+                        android:textColor="@color/text_Solid"
+                        android:text="15 K"
+                        android:id="@+id/txtBoilingPointDetail"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <View
+                    android:background="@color/colorPrimary"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"/>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_weight="0.5"
+                        android:text="Group:"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:layout_weight="0.5"
+                        android:text="Old group:"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_marginStart="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_weight="0.5"
+                        android:textColor="@color/text_Solid"
+                        android:text="1"
+                        android:id="@+id/txtGroupDetail_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:layout_weight="0.5"
+                        android:textColor="@color/text_Solid"
+                        android:text="I A"
+                        android:id="@+id/txtOldGroupDetail"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <View
+                    android:background="@color/colorPrimary"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"/>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:text="Electronic configuration:"
+                        android:layout_weight="0.5"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+
+                    <TextView
+                        android:layout_weight="0.5"
+                        android:id="@+id/txtElectronConfigurationDetail"
+                        android:textColor="@color/text_Solid"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <View
+                    android:background="@color/colorPrimary"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"/>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_weight="0.5"
+                        android:text="Oxidation states:"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:layout_weight="0.5"
+                        android:text="Ion charge:"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_marginStart="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_weight="0.5"
+                        android:textColor="@color/text_Solid"
+                        android:text="1"
+                        android:id="@+id/txtOxidationStatesDetail"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:layout_weight="0.5"
+                        android:textColor="@color/text_Solid"
+                        android:text="I A"
+                        android:id="@+id/txtIonChargeDetail"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <View
+                    android:background="@color/colorPrimary"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"/>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_weight="0.5"
+                        android:text="Atomic radius (Amstrong):"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:layout_weight="0.5"
+                        android:text="Covalent radius (Amstrong):"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_marginStart="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_weight="0.5"
+                        android:textColor="@color/text_Solid"
+                        android:text="14"
+                        android:id="@+id/txtAtomicRadiusDetail"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:layout_weight="0.5"
+                        android:textColor="@color/text_Solid"
+                        android:text="I A"
+                        android:id="@+id/txtCovalentRadiusDetail"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:background="@color/background_color_title_detail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:textColor="#fff"
+                        android:text="Prevalence"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+                <LinearLayout
+                android:orientation="vertical"
+                android:layout_marginStart="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                            <TextView
+                                android:id="@+id/txtUniverseTitle"
+                                android:layout_weight="0.3"
+                                android:text="Universe consists of Hydrogen on:"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" />
+                        <TextView
+                            android:textColor="@color/text_Solid"
+                            android:id="@+id/txtUniverseDetail"
+                            android:text="5%"
+                            android:layout_weight="0.7"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:id="@+id/txtSunTitle"
+                            android:layout_weight="0.3"
+                            android:text="Sun consists of Hydrogen on:"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textColor="@color/text_Solid"
+                            android:id="@+id/txtSunDetail"
+                            android:text="5%"
+                            android:layout_weight="0.7"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:id="@+id/txtOceansTitle"
+                            android:layout_weight="0.3"
+                            android:text="Oceans consists of Hydrogen on:"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textColor="@color/text_Solid"
+                            android:id="@+id/txtOceansDetail"
+                            android:text="5%"
+                            android:layout_weight="0.7"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:id="@+id/txtHumanTitle"
+                            android:layout_weight="0.3"
+                            android:text="Human consists of Hydrogen on:"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textColor="@color/text_Solid"
+                            android:id="@+id/txtHumanDetail"
+                            android:text="5%"
+                            android:layout_weight="0.7"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:id="@+id/txtEarthTitle"
+                            android:layout_weight="0.3"
+                            android:text="The Earth's crust consists of Hydrogen on:"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textColor="@color/text_Solid"
+                            android:id="@+id/txtEarthDetail"
+                            android:text="5%"
+                            android:layout_weight="0.7"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:id="@+id/txtMeteoritesTitle"
+                            android:layout_weight="0.3"
+                            android:text="Meteorites consists of Hydrogen on:"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textColor="@color/text_Solid"
+                            android:id="@+id/txtMeteoritesDetail"
+                            android:text="5%"
+                            android:layout_weight="0.7"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                 </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:background="@color/background_color_title_detail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:textColor="#fff"
+                        android:text="Other properties"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_marginStart="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_weight="0.4"
+                            android:text="Specific volume:"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textColor="@color/text_Solid"
+                            android:id="@+id/txtSpecificVolumeDetail"
+                            android:text="5%"
+                            android:layout_weight="0.6"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_weight="0.4"
+                            android:text="Specific heat:"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textColor="@color/text_Solid"
+                            android:id="@+id/txtSpecificHeatDetail"
+                            android:text="5%"
+                            android:layout_weight="0.6"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_weight="0.4"
+                            android:text="Heat fusion:"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textColor="@color/text_Solid"
+                            android:id="@+id/txtHeatFusionDetail"
+                            android:text="5%"
+                            android:layout_weight="0.6"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_weight="0.4"
+                            android:text="Heat evaporation:"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textColor="@color/text_Solid"
+                            android:id="@+id/txtHeatEvaporationDetail"
+                            android:text="5%"
+                            android:layout_weight="0.6"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_weight="0.4"
+                            android:text="Thermal conductivity:"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textColor="@color/text_Solid"
+                            android:id="@+id/txtThermalConductivityDetail"
+                            android:text="5%"
+                            android:layout_weight="0.6"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_weight="0.4"
+                        android:text="Pauling electronegativity:"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:textColor="@color/text_Solid"
+                        android:id="@+id/txtPaulingElectronegativityDetail"
+                        android:text="5%"
+                        android:layout_weight="0.6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                     </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_weight="0.4"
+                            android:text="First ionisation energy:"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:textColor="@color/text_Solid"
+                            android:id="@+id/txtFirsIonisationEnergyDetail"
+                            android:text="5%"
+                            android:layout_weight="0.6"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+                       </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:background="@color/background_color_title_detail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:text="Other"
+                        android:textColor="#fff"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_marginStart="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:text="Hydrides:"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:layout_marginStart="20dp"
+                        android:id="@+id/txtHydridesDetail"
+                        android:textColor="@color/text_Solid"
+                        android:text="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:text="Oxideds:"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:layout_marginStart="20dp"
+                        android:id="@+id/txtOxidedsDetail"
+                        android:textColor="@color/text_Solid"
+                        android:text="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:text="Chlorides:"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:layout_marginStart="20dp"
+                        android:id="@+id/txtChloridesDetail"
+                        android:textColor="@color/text_Solid"
+                        android:text="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+
+
+    <ListView
+        android:layout_marginTop="3dp"
+        android:visibility="invisible"
+        android:id="@+id/lv_Search"
+        android:layout_marginStart="@dimen/listView_marginStart"
+        android:layout_marginEnd="@dimen/listView_marginEnd"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </ListView>
+
+</FrameLayout>

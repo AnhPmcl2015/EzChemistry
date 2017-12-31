@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="500dp"
+    android:layout_height="200dp"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnAlkaliMetalElements"
+            android:background="#ffa265"
+            android:layout_width="@dimen/button_Size_Background_Color"
+            android:layout_height="@dimen/button_Size_Background_Color" />
+
+        <TextView
+            android:layout_marginStart="4dp"
+            android:text="Alkali metals"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:layout_marginStart="61dp"
+            android:id="@+id/btnOtherMetalsElements"
+            android:background="#f6db81"
+            android:layout_width="@dimen/button_Size_Background_Color"
+            android:layout_height="@dimen/button_Size_Background_Color" />
+
+        <TextView
+            android:layout_marginStart="4dp"
+            android:text="Other metals"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:layout_marginStart="33dp"
+            android:id="@+id/btnHalogenElements"
+            android:background="#bee4bf"
+            android:layout_width="@dimen/button_Size_Background_Color"
+            android:layout_height="@dimen/button_Size_Background_Color" />
+
+        <TextView
+            android:layout_marginStart="4dp"
+            android:text="Halogens"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnAlkalineEarthMetalElements"
+            android:background="#f8d161"
+            android:layout_width="@dimen/button_Size_Background_Color"
+            android:layout_height="@dimen/button_Size_Background_Color" />
+
+        <TextView
+            android:layout_marginStart="4dp"
+            android:text="Alkaline earth metals"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:layout_marginStart="10dp"
+            android:id="@+id/btnMetalloidElements"
+            android:background="#e7adf5"
+            android:layout_width="@dimen/button_Size_Background_Color"
+            android:layout_height="@dimen/button_Size_Background_Color" />
+
+        <TextView
+            android:layout_marginStart="4dp"
+            android:text="Metalloids"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:layout_marginStart="49dp"
+            android:id="@+id/btnNobleGasElements"
+            android:background="#9ae0f5"
+            android:layout_width="@dimen/button_Size_Background_Color"
+            android:layout_height="@dimen/button_Size_Background_Color" />
+
+        <TextView
+            android:layout_marginStart="4dp"
+            android:text="Noble gases"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnTransitionMetalElements"
+            android:background="#fefa8e"
+            android:layout_width="@dimen/button_Size_Background_Color"
+            android:layout_height="@dimen/button_Size_Background_Color" />
+
+        <TextView
+            android:layout_marginStart="4dp"
+            android:text="Transition metals"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:layout_marginStart="33dp"
+            android:id="@+id/btnOtherNonmetalElements"
+            android:background="#ff93db"
+            android:layout_width="@dimen/button_Size_Background_Color"
+            android:layout_height="@dimen/button_Size_Background_Color" />
+
+        <TextView
+            android:layout_marginStart="4dp"
+            android:text="Other nonmetals"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:layout_marginStart="10dp"
+            android:id="@+id/btnOtherElements"
+            android:background="#e6e6e6"
+            android:layout_width="@dimen/button_Size_Background_Color"
+            android:layout_height="@dimen/button_Size_Background_Color" />
+
+        <TextView
+
+            android:layout_marginStart="4dp"
+            android:text="Other"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnAllElements"
+        android:layout_gravity="end|bottom"
+        android:background="@android:color/transparent"
+        android:text="All"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>

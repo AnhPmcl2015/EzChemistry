@@ -1,0 +1,1978 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#fff"
+    android:id="@+id/layout_main">
+
+
+
+    <FrameLayout
+    android:layout_marginTop="@dimen/margin"
+    android:id="@+id/frameLayout"
+    android:layout_alignParentEnd="true"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+        <ImageView
+            android:contentDescription="@string/image_background_color_of_element"
+            android:scaleType="fitXY"
+            android:src="@drawable/background_color"
+            android:layout_marginStart="@dimen/marginStart_imageView_Background_color"
+            android:layout_width="@dimen/imageView_width_background_color_over5inch"
+            android:layout_height="@dimen/imageView_height_background_color_over5inch" />
+
+        <Button
+            android:id="@+id/btnBackgroundColor"
+            android:background="@android:color/transparent"
+            android:layout_marginStart="@dimen/marginStart_imageView_Background_color"
+            android:layout_width="@dimen/imageView_width_background_color_over5inch"
+            android:layout_height="@dimen/imageView_height_background_color_over5inch" />
+
+        <TableLayout
+        android:padding="@dimen/margin"
+        android:id="@+id/tableLayout"
+        android:layout_margin="@dimen/margin"
+        android:layout_gravity="end"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <TableRow>
+            <TextView />
+        </TableRow>
+
+        <TableRow>
+            <TextView />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_marginTop="@dimen/distance"
+                android:layout_marginStart="@dimen/distance"
+                android:textColor="@color/colorText"
+                android:layout_width="@dimen/itemWitdth"
+                android:gravity="center"
+                android:text="1"
+                android:textSize="@dimen/textSize"/>
+
+            <!--Space-->
+            <TextView android:layout_width="@dimen/itemWitdth"/>
+            <TextView android:layout_width="@dimen/itemWitdth"/>
+            <TextView android:layout_width="@dimen/itemWitdth"/>
+            <TextView android:layout_width="@dimen/itemWitdth"/>
+            <TextView android:layout_width="@dimen/itemWitdth"/>
+            <TextView android:layout_width="@dimen/itemWitdth"/>
+            <TextView android:layout_width="@dimen/itemWitdth"/>
+            <TextView android:layout_width="@dimen/itemWitdth"/>
+            <TextView android:layout_width="@dimen/itemWitdth"/>
+            <TextView android:layout_width="@dimen/itemWitdth"/>
+            <TextView android:layout_width="@dimen/itemWitdth"/>
+            <TextView android:layout_width="@dimen/itemWitdth"/>
+            <TextView android:layout_width="@dimen/itemWitdth"/>
+            <TextView android:layout_width="@dimen/itemWitdth"/>
+            <TextView android:layout_width="@dimen/itemWitdth"/>
+            <TextView android:layout_width="@dimen/itemWitdth"/>
+
+            <TextView
+                android:layout_marginTop="@dimen/distance"
+                android:layout_marginStart="@dimen/distance"
+                android:textColor="@color/colorText"
+                android:layout_width="@dimen/itemWitdth"
+                android:gravity="center"
+                android:text="18"
+                android:textSize="@dimen/textSize"/>
+        </TableRow>
+
+        <TableRow>
+            <!--hydrogen _ btn1-->
+            <ImageButton
+                android:layout_marginTop="@dimen/distance"
+                android:layout_marginStart="@dimen/distance"
+                android:id="@+id/btn1"
+                android:layout_width="@dimen/itemWitdth"
+                android:layout_height="@dimen/itemHeight"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:src="@drawable/h_1"
+                android:contentDescription="@string/context_description_of_button_element"
+                />
+
+            <TextView
+                android:layout_marginTop="@dimen/distance"
+                android:layout_marginStart="@dimen/distance"
+                android:layout_gravity="bottom"
+                android:textColor="@color/colorText"
+                android:layout_width="@dimen/itemWitdth"
+                android:gravity="center"
+                android:text="2"
+                android:textSize="@dimen/textSize"/>
+
+            <TextView android:layout_width="@dimen/itemWitdth"/>
+            <TextView android:layout_width="@dimen/itemWitdth"/>
+            <TextView android:layout_width="@dimen/itemWitdth"/>
+            <TextView android:layout_width="@dimen/itemWitdth"/>
+            <TextView android:layout_width="@dimen/itemWitdth"/>
+            <TextView android:layout_width="@dimen/itemWitdth"/>
+            <TextView android:layout_width="@dimen/itemWitdth"/>
+            <TextView android:layout_width="@dimen/itemWitdth"/>
+            <TextView android:layout_width="@dimen/itemWitdth"/>
+            <TextView android:layout_width="@dimen/itemWitdth"/>
+
+            <TextView
+                android:layout_marginTop="@dimen/distance"
+                android:layout_marginStart="@dimen/distance"
+                android:layout_gravity="bottom"
+                android:textColor="@color/colorText"
+                android:layout_width="@dimen/itemWitdth"
+                android:gravity="center"
+                android:text="13"
+                android:textSize="@dimen/textSize"/>
+
+            <TextView
+                android:layout_marginTop="@dimen/distance"
+                android:layout_marginStart="@dimen/distance"
+                android:layout_gravity="bottom"
+                android:textColor="@color/colorText"
+                android:layout_width="@dimen/itemWitdth"
+                android:gravity="center"
+                android:text="14"
+                android:textSize="@dimen/textSize"/>
+
+            <TextView
+                android:layout_marginTop="@dimen/distance"
+                android:layout_marginStart="@dimen/distance"
+                android:layout_gravity="bottom"
+                android:textColor="@color/colorText"
+                android:layout_width="@dimen/itemWitdth"
+                android:gravity="center"
+                android:text="15"
+                android:textSize="@dimen/textSize"/>
+
+            <TextView
+                android:layout_marginTop="@dimen/distance"
+                android:layout_marginStart="@dimen/distance"
+                android:layout_gravity="bottom"
+                android:textColor="@color/colorText"
+                android:layout_width="@dimen/itemWitdth"
+                android:gravity="center"
+                android:text="16"
+                android:textSize="@dimen/textSize"/>
+
+            <TextView
+                android:layout_marginTop="@dimen/distance"
+                android:layout_marginStart="@dimen/distance"
+                android:layout_gravity="bottom"
+                android:textColor="@color/colorText"
+                android:layout_width="@dimen/itemWitdth"
+                android:gravity="center"
+                android:text="17"
+                android:textSize="@dimen/textSize"/>
+
+            <!--Helium _ btn2 -->
+            <ImageButton
+                android:layout_marginTop="@dimen/distance"
+                android:layout_marginStart="@dimen/distance"
+                android:id="@+id/btn2"
+                android:layout_width="@dimen/itemWitdth"
+                android:layout_height="@dimen/itemHeight"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:src="@drawable/he_2"
+                android:contentDescription="@string/context_description_of_button_element"
+                 />
+
+        </TableRow>
+
+        <TableRow>
+            <!-- Lithium _ btn3 -->
+            <ImageButton
+                android:layout_marginTop="@dimen/distance"
+                android:layout_marginStart="@dimen/distance"
+                android:id="@+id/btn3"
+                android:layout_width="@dimen/itemWitdth"
+                android:layout_height="@dimen/itemHeight"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:src="@drawable/li_3_01"
+                android:contentDescription="@string/context_description_of_button_element"
+        />
+
+            <!-- Beryllium _ btn4 -->
+            <ImageButton
+                android:layout_marginTop="@dimen/distance"
+                android:layout_marginStart="@dimen/distance"
+                android:id="@+id/btn4"
+                android:layout_width="@dimen/itemWitdth"
+                android:layout_height="@dimen/itemHeight"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:src="@drawable/be_4_01"
+                android:contentDescription="@string/context_description_of_button_element"
+            />
+
+            <!-- Space -->
+            <TextView android:layout_width="@dimen/itemWitdth"/>
+            <TextView android:layout_width="@dimen/itemWitdth"/>
+            <TextView android:layout_width="@dimen/itemWitdth"/>
+            <TextView android:layout_width="@dimen/itemWitdth"/>
+            <TextView android:layout_width="@dimen/itemWitdth"/>
+            <TextView android:layout_width="@dimen/itemWitdth"/>
+            <TextView android:layout_width="@dimen/itemWitdth"/>
+            <TextView android:layout_width="@dimen/itemWitdth"/>
+            <TextView android:layout_width="@dimen/itemWitdth"/>
+            <TextView android:layout_width="@dimen/itemWitdth"/>
+
+            <!-- Boron _ btn5 -->
+            <ImageButton
+                android:layout_marginTop="@dimen/distance"
+                android:layout_marginStart="@dimen/distance"
+                android:id="@+id/btn5"
+                android:layout_width="@dimen/itemWitdth"
+                android:layout_height="@dimen/itemHeight"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:src="@drawable/b_5_01"
+                android:contentDescription="@string/context_description_of_button_element"
+             />
+
+            <!-- Carbon _ btn6 -->
+            <ImageButton
+                android:layout_marginTop="@dimen/distance"
+                android:layout_marginStart="@dimen/distance"
+                android:id="@+id/btn6"
+                android:layout_width="@dimen/itemWitdth"
+                android:layout_height="@dimen/itemHeight"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:src="@drawable/c_6_01"
+                android:contentDescription="@string/context_description_of_button_element"
+              />
+
+            <!-- Nitrogen _ btn7 -->
+            <ImageButton
+                android:layout_marginTop="@dimen/distance"
+                android:layout_marginStart="@dimen/distance"
+                android:id="@+id/btn7"
+                android:layout_width="@dimen/itemWitdth"
+                android:layout_height="@dimen/itemHeight"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:src="@drawable/n_7_01"
+                android:contentDescription="@string/context_description_of_button_element"
+              />
+
+            <!-- Oxygen _ btn8 -->
+            <ImageButton
+                android:layout_marginTop="@dimen/distance"
+                android:layout_marginStart="@dimen/distance"
+                android:id="@+id/btn8"
+                android:layout_width="@dimen/itemWitdth"
+                android:layout_height="@dimen/itemHeight"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:src="@drawable/o_8_01"
+                android:contentDescription="@string/context_description_of_button_element"
+               />
+
+            <!-- Florine _ btn9 -->
+            <ImageButton
+                android:layout_marginTop="@dimen/distance"
+                android:layout_marginStart="@dimen/distance"
+                android:id="@+id/btn9"
+                android:layout_width="@dimen/itemWitdth"
+                android:layout_height="@dimen/itemHeight"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:src="@drawable/f_9_01"
+                android:contentDescription="@string/context_description_of_button_element"
+              />
+
+            <!-- Neon _ btn10 -->
+            <ImageButton
+                android:layout_marginTop="@dimen/distance"
+                android:layout_marginStart="@dimen/distance"
+                android:id="@+id/btn10"
+                android:layout_width="@dimen/itemWitdth"
+                android:layout_height="@dimen/itemHeight"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ne_10_01"
+                android:contentDescription="@string/context_description_of_button_element"
+             />
+        </TableRow>
+
+        <TableRow>
+            <!-- Sodium _ btn11 -->
+            <ImageButton
+                android:layout_marginTop="@dimen/distance"
+                android:layout_marginStart="@dimen/distance"
+                android:id="@+id/btn11"
+                android:layout_width="@dimen/itemWitdth"
+                android:layout_height="@dimen/itemHeight"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:src="@drawable/na_11_01"
+                android:contentDescription="@string/context_description_of_button_element"
+            />
+
+            <!-- Magnesiun _ btn12 -->
+            <ImageButton
+                android:layout_marginTop="@dimen/distance"
+                android:layout_marginStart="@dimen/distance"
+                android:id="@+id/btn12"
+                android:layout_width="@dimen/itemWitdth"
+                android:layout_height="@dimen/itemHeight"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:src="@drawable/mg_12_01"
+                android:contentDescription="@string/context_description_of_button_element"
+             />
+
+            <!-- Space -->
+            <TextView
+                android:layout_marginTop="@dimen/distance"
+                android:layout_marginStart="@dimen/distance"
+                android:layout_gravity="bottom"
+                android:textColor="@color/colorText"
+                android:layout_width="@dimen/itemWitdth"
+                android:gravity="center"
+                android:text="3"
+                android:textSize="@dimen/textSize"/>
+
+            <TextView
+                android:layout_marginTop="@dimen/distance"
+                android:layout_marginStart="@dimen/distance"
+                android:layout_gravity="bottom"
+                android:textColor="@color/colorText"
+                android:layout_width="@dimen/itemWitdth"
+                android:gravity="center"
+                android:text="4"
+                android:textSize="@dimen/textSize"/>
+
+            <TextView
+                android:layout_marginTop="@dimen/distance"
+                android:layout_marginStart="@dimen/distance"
+                android:layout_gravity="bottom"
+                android:textColor="@color/colorText"
+                android:layout_width="@dimen/itemWitdth"
+                android:gravity="center"
+                android:text="5"
+                android:textSize="@dimen/textSize"/>
+
+            <TextView
+                android:layout_marginTop="@dimen/distance"
+                android:layout_marginStart="@dimen/distance"
+                android:layout_gravity="bottom"
+                android:textColor="@color/colorText"
+                android:layout_width="@dimen/itemWitdth"
+                android:gravity="center"
+                android:text="6"
+                android:textSize="@dimen/textSize"/>
+
+            <TextView
+                android:layout_marginTop="@dimen/distance"
+                android:layout_marginStart="@dimen/distance"
+                android:layout_gravity="bottom"
+                android:textColor="@color/colorText"
+                android:layout_width="@dimen/itemWitdth"
+                android:gravity="center"
+                android:text="7"
+                android:textSize="@dimen/textSize"/>
+
+            <TextView
+                android:layout_marginTop="@dimen/distance"
+                android:layout_marginStart="@dimen/distance"
+                android:layout_gravity="bottom"
+                android:textColor="@color/colorText"
+                android:layout_width="@dimen/itemWitdth"
+                android:gravity="center"
+                android:text="8"
+                android:textSize="@dimen/textSize"/>
+
+            <TextView
+                android:layout_marginTop="@dimen/distance"
+                android:layout_marginStart="@dimen/distance"
+                android:layout_gravity="bottom"
+                android:textColor="@color/colorText"
+                android:layout_width="@dimen/itemWitdth"
+                android:gravity="center"
+                android:text="9"
+                android:textSize="@dimen/textSize"/>
+
+            <TextView
+                android:layout_marginTop="@dimen/distance"
+                android:layout_marginStart="@dimen/distance"
+                android:layout_gravity="bottom"
+                android:textColor="@color/colorText"
+                android:layout_width="@dimen/itemWitdth"
+                android:gravity="center"
+                android:text="10"
+                android:textSize="@dimen/textSize"/>
+
+            <TextView
+                android:layout_marginTop="@dimen/distance"
+                android:layout_marginStart="@dimen/distance"
+                android:layout_gravity="bottom"
+                android:textColor="@color/colorText"
+                android:layout_width="@dimen/itemWitdth"
+                android:gravity="center"
+                android:text="11"
+                android:textSize="@dimen/textSize"/>
+
+            <TextView
+                android:layout_marginTop="@dimen/distance"
+                android:layout_marginStart="@dimen/distance"
+                android:layout_gravity="bottom"
+                android:textColor="@color/colorText"
+                android:layout_width="@dimen/itemWitdth"
+                android:gravity="center"
+                android:text="12"
+                android:textSize="@dimen/textSize"/>
+
+            <!-- Aluminium _ btn13 -->
+            <ImageButton
+                android:layout_marginTop="@dimen/distance"
+                android:layout_marginStart="@dimen/distance"
+                android:id="@+id/btn13"
+                android:layout_width="@dimen/itemWitdth"
+                android:layout_height="@dimen/itemHeight"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:src="@drawable/al_13_01"
+                android:contentDescription="@string/context_description_of_button_element"
+           />
+
+            <!-- Silicon _ btn14 -->
+            <ImageButton
+                android:layout_marginTop="@dimen/distance"
+                android:layout_marginStart="@dimen/distance"
+                android:id="@+id/btn14"
+                android:layout_width="@dimen/itemWitdth"
+                android:layout_height="@dimen/itemHeight"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:src="@drawable/si_14_01"
+                android:contentDescription="@string/context_description_of_button_element"
+             />
+
+            <!-- Phosphoru _ btn15 -->
+            <ImageButton
+                android:layout_marginTop="@dimen/distance"
+                android:layout_marginStart="@dimen/distance"
+                android:id="@+id/btn15"
+                android:layout_width="@dimen/itemWitdth"
+                android:layout_height="@dimen/itemHeight"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:src="@drawable/p_15_01"
+                android:contentDescription="@string/context_description_of_button_element"
+               />
+
+            <!-- Sulphur _ btn16 -->
+            <ImageButton
+                android:layout_marginTop="@dimen/distance"
+                android:layout_marginStart="@dimen/distance"
+                android:id="@+id/btn16"
+                android:layout_width="@dimen/itemWitdth"
+                android:layout_height="@dimen/itemHeight"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:src="@drawable/s_16_01"
+                android:contentDescription="@string/context_description_of_button_element"
+             />
+
+            <!-- Chlorine _ btn17 -->
+            <ImageButton
+                android:layout_marginTop="@dimen/distance"
+                android:layout_marginStart="@dimen/distance"
+                android:id="@+id/btn17"
+                android:layout_width="@dimen/itemWitdth"
+                android:layout_height="@dimen/itemHeight"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:src="@drawable/cl_17_01"
+                android:contentDescription="@string/context_description_of_button_element"
+              />
+
+            <!-- Argon _ btn18 -->
+            <ImageButton
+                android:layout_marginTop="@dimen/distance"
+                android:layout_marginStart="@dimen/distance"
+                android:id="@+id/btn18"
+                android:layout_width="@dimen/itemWitdth"
+                android:layout_height="@dimen/itemHeight"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/context_description_of_button_element"
+                android:src="@drawable/ar_18_01"
+               />
+        </TableRow>
+
+        <TableRow>
+            <!-- Potassium _ btn19 -->
+            <ImageButton
+                android:layout_marginTop="@dimen/distance"
+                android:layout_marginStart="@dimen/distance"
+                android:id="@+id/btn19"
+                android:layout_width="@dimen/itemWitdth"
+                android:layout_height="@dimen/itemHeight"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/context_description_of_button_element"
+                android:src="@drawable/k_19_01"
+               />
+
+            <!-- Calcium _ btn20 -->
+            <ImageButton
+                android:layout_marginTop="@dimen/distance"
+                android:layout_marginStart="@dimen/distance"
+                android:id="@+id/btn20"
+                android:layout_width="@dimen/itemWitdth"
+                android:layout_height="@dimen/itemHeight"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/context_description_of_button_element"
+                android:src="@drawable/ca_20_01"
+              />
+
+            <!-- Scandium _ btn21 -->
+            <ImageButton
+                android:layout_marginTop="@dimen/distance"
+                android:layout_marginStart="@dimen/distance"
+                android:id="@+id/btn21"
+                android:layout_width="@dimen/itemWitdth"
+                android:layout_height="@dimen/itemHeight"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/context_description_of_button_element"
+                android:src="@drawable/sc_21_01"
+                 />
+
+            <!-- Titanium _ btn22 -->
+            <ImageButton
+                android:layout_marginTop="@dimen/distance"
+                android:layout_marginStart="@dimen/distance"
+                android:id="@+id/btn22"
+                android:layout_width="@dimen/itemWitdth"
+                android:layout_height="@dimen/itemHeight"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/context_description_of_button_element"
+                android:src="@drawable/ti_22_01"
+               />
+
+            <!-- Vanadium _ btn23 -->
+            <ImageButton
+                android:layout_marginTop="@dimen/distance"
+                android:layout_marginStart="@dimen/distance"
+                android:id="@+id/btn23"
+                android:layout_width="@dimen/itemWitdth"
+                android:layout_height="@dimen/itemHeight"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/context_description_of_button_element"
+                android:src="@drawable/v_23_01"
+               />
+
+            <!-- Chromium _ btn24 -->
+            <ImageButton
+                android:layout_marginTop="@dimen/distance"
+                android:layout_marginStart="@dimen/distance"
+                android:id="@+id/btn24"
+                android:layout_width="@dimen/itemWitdth"
+                android:layout_height="@dimen/itemHeight"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/context_description_of_button_element"
+                android:src="@drawable/cr_24_01"
+               />
+
+            <!-- Manganese _ btn25 -->
+            <ImageButton
+                android:layout_marginTop="@dimen/distance"
+                android:layout_marginStart="@dimen/distance"
+                android:id="@+id/btn25"
+                android:layout_width="@dimen/itemWitdth"
+                android:layout_height="@dimen/itemHeight"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/context_description_of_button_element"
+                android:src="@drawable/mn_25_01"
+                />
+
+            <!-- iron _ btn26 -->
+            <ImageButton
+                android:layout_marginTop="@dimen/distance"
+                android:layout_marginStart="@dimen/distance"
+                android:id="@+id/btn26"
+                android:layout_width="@dimen/itemWitdth"
+                android:layout_height="@dimen/itemHeight"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/context_description_of_button_element"
+                android:src="@drawable/fe_26_01"
+              />
+
+            <!-- Cobalt _ btn27 -->
+            <ImageButton
+                android:layout_marginTop="@dimen/distance"
+                android:layout_marginStart="@dimen/distance"
+                android:id="@+id/btn27"
+                android:layout_width="@dimen/itemWitdth"
+                android:layout_height="@dimen/itemHeight"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/context_description_of_button_element"
+                android:src="@drawable/co_27_01"
+              />
+
+            <!-- Nickel _ btn28 -->
+            <ImageButton
+                android:layout_marginTop="@dimen/distance"
+                android:layout_marginStart="@dimen/distance"
+                android:id="@+id/btn28"
+                android:layout_width="@dimen/itemWitdth"
+                android:layout_height="@dimen/itemHeight"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/context_description_of_button_element"
+                android:src="@drawable/ni_28_01"
+                />
+
+            <!-- Copper _ btn29 -->
+            <ImageButton
+                android:layout_marginTop="@dimen/distance"
+                android:layout_marginStart="@dimen/distance"
+                android:id="@+id/btn29"
+                android:layout_width="@dimen/itemWitdth"
+                android:layout_height="@dimen/itemHeight"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/context_description_of_button_element"
+                android:src="@drawable/cu_29_01"
+                />
+
+            <!-- Zinc _ btn30 -->
+            <ImageButton
+                android:layout_marginTop="@dimen/distance"
+                android:layout_marginStart="@dimen/distance"
+                android:id="@+id/btn30"
+                android:layout_width="@dimen/itemWitdth"
+                android:layout_height="@dimen/itemHeight"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/context_description_of_button_element"
+                android:src="@drawable/zn_30_01"
+               />
+
+            <!-- Gallium _ btn31 -->
+            <ImageButton
+                android:layout_marginTop="@dimen/distance"
+                android:layout_marginStart="@dimen/distance"
+                android:id="@+id/btn31"
+                android:layout_width="@dimen/itemWitdth"
+                android:layout_height="@dimen/itemHeight"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/context_description_of_button_element"
+                android:src="@drawable/ga_31_01"
+                />
+
+            <!-- Germanium _ btn32 -->
+            <ImageButton
+                android:layout_marginTop="@dimen/distance"
+                android:layout_marginStart="@dimen/distance"
+                android:id="@+id/btn32"
+                android:layout_width="@dimen/itemWitdth"
+                android:layout_height="@dimen/itemHeight"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/context_description_of_button_element"
+                android:src="@drawable/ge_32_01"
+                />
+
+            <!-- Arsenic _ btn33 -->
+            <ImageButton
+                android:layout_marginTop="@dimen/distance"
+                android:layout_marginStart="@dimen/distance"
+                android:id="@+id/btn33"
+                android:layout_width="@dimen/itemWitdth"
+                android:layout_height="@dimen/itemHeight"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/context_description_of_button_element"
+                android:src="@drawable/as_33_01"
+               />
+
+            <!-- Selenium _ btn34 -->
+            <ImageButton
+                android:layout_marginTop="@dimen/distance"
+                android:layout_marginStart="@dimen/distance"
+                android:id="@+id/btn34"
+                android:layout_width="@dimen/itemWitdth"
+                android:layout_height="@dimen/itemHeight"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/context_description_of_button_element"
+                android:src="@drawable/se_34_01"
+                />
+
+            <!-- Bromine _ btn35 -->
+            <ImageButton
+                android:layout_marginTop="@dimen/distance"
+                android:layout_marginStart="@dimen/distance"
+                android:id="@+id/btn35"
+                android:layout_width="@dimen/itemWitdth"
+                android:layout_height="@dimen/itemHeight"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/context_description_of_button_element"
+                android:src="@drawable/br_35_01"
+              />
+
+            <!-- Krypton _ btn36 -->
+            <ImageButton
+                android:layout_marginTop="@dimen/distance"
+                android:layout_marginStart="@dimen/distance"
+                android:id="@+id/btn36"
+                android:layout_width="@dimen/itemWitdth"
+                android:layout_height="@dimen/itemHeight"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/context_description_of_button_element"
+                android:src="@drawable/kr_36_01"
+               />
+        </TableRow>
+
+        <TableRow>
+            <!-- Rubidium _ btn37 -->
+            <ImageButton
+                android:layout_marginTop="@dimen/distance"
+                android:layout_marginStart="@dimen/distance"
+                android:id="@+id/btn37"
+                android:layout_width="@dimen/itemWitdth"
+                android:layout_height="@dimen/itemHeight"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/context_description_of_button_element"
+                android:src="@drawable/rb_37_01"
+              />
+
+            <!-- Strontium _ btn38 -->
+            <ImageButton
+                android:layout_marginTop="@dimen/distance"
+                android:layout_marginStart="@dimen/distance"
+                android:id="@+id/btn38"
+                android:layout_width="@dimen/itemWitdth"
+                android:layout_height="@dimen/itemHeight"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/context_description_of_button_element"
+                android:src="@drawable/sr_38_01"
+               />
+
+            <!-- Yttrium _ btn39 -->
+            <ImageButton
+                android:layout_marginTop="@dimen/distance"
+                android:layout_marginStart="@dimen/distance"
+                android:id="@+id/btn39"
+                android:layout_width="@dimen/itemWitdth"
+                android:layout_height="@dimen/itemHeight"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/context_description_of_button_element"
+                android:src="@drawable/y_39_01"
+              />
+
+            <!-- Zirconium _ btn40 -->
+            <ImageButton
+                android:layout_marginTop="@dimen/distance"
+                android:layout_marginStart="@dimen/distance"
+                android:id="@+id/btn40"
+                android:layout_width="@dimen/itemWitdth"
+                android:layout_height="@dimen/itemHeight"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/context_description_of_button_element"
+                android:src="@drawable/zr_40_01"
+                />
+
+            <!-- Niobium _ btn41 -->
+            <ImageButton
+                android:layout_marginTop="@dimen/distance"
+                android:layout_marginStart="@dimen/distance"
+                android:id="@+id/btn41"
+                android:layout_width="@dimen/itemWitdth"
+                android:layout_height="@dimen/itemHeight"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/context_description_of_button_element"
+                android:src="@drawable/nb_41_01"
+               />
+
+            <!-- Molybdenu _ btn42 -->
+            <ImageButton
+                android:layout_marginTop="@dimen/distance"
+                android:layout_marginStart="@dimen/distance"
+                android:id="@+id/btn42"
+                android:layout_width="@dimen/itemWitdth"
+                android:layout_height="@dimen/itemHeight"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/context_description_of_button_element"
+                android:src="@drawable/mo_42_01"
+                />
+
+            <!-- Technetium _ btn43 -->
+            <ImageButton
+                android:layout_marginTop="@dimen/distance"
+                android:layout_marginStart="@dimen/distance"
+                android:id="@+id/btn43"
+                android:layout_width="@dimen/itemWitdth"
+                android:layout_height="@dimen/itemHeight"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/context_description_of_button_element"
+                android:src="@drawable/tc_43_01"
+                />
+
+            <!-- Ruthenium _ btn44 -->
+            <ImageButton
+                android:layout_marginTop="@dimen/distance"
+                android:layout_marginStart="@dimen/distance"
+                android:id="@+id/btn44"
+                android:layout_width="@dimen/itemWitdth"
+                android:layout_height="@dimen/itemHeight"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/context_description_of_button_element"
+                android:src="@drawable/ru_44_01"
+              />
+
+            <!-- Rhodium _ btn45 -->
+            <ImageButton
+                android:layout_marginTop="@dimen/distance"
+                android:layout_marginStart="@dimen/distance"
+                android:id="@+id/btn45"
+                android:layout_width="@dimen/itemWitdth"
+                android:layout_height="@dimen/itemHeight"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/context_description_of_button_element"
+                android:src="@drawable/rh_45_01"/>
+
+            <!-- Palladium _ btn46 -->
+            <ImageButton
+                android:layout_marginTop="@dimen/distance"
+                android:layout_marginStart="@dimen/distance"
+                android:id="@+id/btn46"
+                android:layout_width="@dimen/itemWitdth"
+                android:layout_height="@dimen/itemHeight"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/context_description_of_button_element"
+                android:src="@drawable/pd_46_01"/>
+
+            <!-- Silver _ btn47 -->
+            <ImageButton
+                android:layout_marginTop="@dimen/distance"
+                android:layout_marginStart="@dimen/distance"
+                android:id="@+id/btn47"
+                android:layout_width="@dimen/itemWitdth"
+                android:layout_height="@dimen/itemHeight"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/context_description_of_button_element"
+                android:src="@drawable/ag_47_01"
+               />
+
+            <!-- Cadminum _ btn48 -->
+            <ImageButton
+                android:layout_marginTop="@dimen/distance"
+                android:layout_marginStart="@dimen/distance"
+                android:id="@+id/btn48"
+                android:layout_width="@dimen/itemWitdth"
+                android:layout_height="@dimen/itemHeight"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/context_description_of_button_element"
+                android:src="@drawable/cd_48_01"
+               />
+
+            <!-- Indium _ btn49 -->
+            <ImageButton
+                android:layout_marginTop="@dimen/distance"
+                android:layout_marginStart="@dimen/distance"
+                android:id="@+id/btn49"
+                android:layout_width="@dimen/itemWitdth"
+                android:layout_height="@dimen/itemHeight"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/context_description_of_button_element"
+                android:src="@drawable/ln_49_01"
+               />
+
+            <!-- Tin _ btn50 -->
+            <ImageButton
+                android:layout_marginTop="@dimen/distance"
+                android:layout_marginStart="@dimen/distance"
+                android:id="@+id/btn50"
+                android:layout_width="@dimen/itemWitdth"
+                android:layout_height="@dimen/itemHeight"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/context_description_of_button_element"
+                android:src="@drawable/sn_50_01"
+               />
+
+            <!-- Antimony _ btn51 -->
+            <ImageButton
+                android:layout_marginTop="@dimen/distance"
+                android:layout_marginStart="@dimen/distance"
+                android:id="@+id/btn51"
+                android:layout_width="@dimen/itemWitdth"
+                android:layout_height="@dimen/itemHeight"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/context_description_of_button_element"
+                android:src="@drawable/sb_51_01"
+               />
+
+            <!-- Tellurium _ btn52 -->
+            <ImageButton
+                android:layout_marginTop="@dimen/distance"
+                android:layout_marginStart="@dimen/distance"
+                android:id="@+id/btn52"
+                android:layout_width="@dimen/itemWitdth"
+                android:layout_height="@dimen/itemHeight"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/context_description_of_button_element"
+                android:src="@drawable/te_52_01"
+              />
+
+            <!-- Iodine _ btn53 -->
+            <ImageButton
+                android:layout_marginTop="@dimen/distance"
+                android:layout_marginStart="@dimen/distance"
+                android:id="@+id/btn53"
+                android:layout_width="@dimen/itemWitdth"
+                android:layout_height="@dimen/itemHeight"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/context_description_of_button_element"
+                android:src="@drawable/i_53_01"
+               />
+
+            <!-- Xenon _ btn54 -->
+            <ImageButton
+                android:layout_marginTop="@dimen/distance"
+                android:layout_marginStart="@dimen/distance"
+                android:id="@+id/btn54"
+                android:layout_width="@dimen/itemWitdth"
+                android:layout_height="@dimen/itemHeight"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/context_description_of_button_element"
+                android:src="@drawable/xe_54_01"
+               />
+        </TableRow>
+
+        <TableRow>
+        <!-- Caesium _ btn55 -->
+        <ImageButton
+            android:layout_marginTop="@dimen/distance"
+            android:layout_marginStart="@dimen/distance"
+            android:id="@+id/btn55"
+            android:layout_width="@dimen/itemWitdth"
+            android:layout_height="@dimen/itemHeight"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:contentDescription="@string/context_description_of_button_element"
+            android:src="@drawable/cs_55_01"
+          />
+
+        <!-- Barium _ btn56 -->
+        <ImageButton
+            android:layout_marginTop="@dimen/distance"
+            android:layout_marginStart="@dimen/distance"
+            android:id="@+id/btn56"
+            android:layout_width="@dimen/itemWitdth"
+            android:layout_height="@dimen/itemHeight"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:contentDescription="@string/context_description_of_button_element"
+            android:src="@drawable/ba_56_01"
+           />
+
+        <!-- Lutetium _ btn71 -->
+        <ImageButton
+            android:layout_marginTop="@dimen/distance"
+            android:layout_marginStart="@dimen/distance"
+            android:id="@+id/btn71"
+            android:layout_width="@dimen/itemWitdth"
+            android:layout_height="@dimen/itemHeight"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:contentDescription="@string/context_description_of_button_element"
+            android:src="@drawable/lu_71"
+           />
+
+
+        <!-- Hafnium _ btn72 -->
+        <ImageButton
+            android:layout_marginTop="@dimen/distance"
+            android:layout_marginStart="@dimen/distance"
+            android:id="@+id/btn72"
+            android:layout_width="@dimen/itemWitdth"
+            android:layout_height="@dimen/itemHeight"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:contentDescription="@string/context_description_of_button_element"
+            android:src="@drawable/hf_72_01"
+         />
+
+        <!-- Tantalum _ btn73 -->
+        <ImageButton
+            android:layout_marginTop="@dimen/distance"
+            android:layout_marginStart="@dimen/distance"
+            android:id="@+id/btn73"
+            android:layout_width="@dimen/itemWitdth"
+            android:layout_height="@dimen/itemHeight"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:contentDescription="@string/context_description_of_button_element"
+            android:src="@drawable/ta_73_01"
+          />
+
+        <!-- Tungsten _ btn74 -->
+        <ImageButton
+            android:layout_marginTop="@dimen/distance"
+            android:layout_marginStart="@dimen/distance"
+            android:id="@+id/btn74"
+            android:layout_width="@dimen/itemWitdth"
+            android:layout_height="@dimen/itemHeight"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:contentDescription="@string/context_description_of_button_element"
+            android:src="@drawable/w_74_01"
+          />
+
+        <!-- Rhenium _ btn75 -->
+        <ImageButton
+            android:layout_marginTop="@dimen/distance"
+            android:layout_marginStart="@dimen/distance"
+            android:id="@+id/btn75"
+            android:layout_width="@dimen/itemWitdth"
+            android:layout_height="@dimen/itemHeight"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:contentDescription="@string/context_description_of_button_element"
+            android:src="@drawable/re_75_01"
+         />
+
+        <!-- Osmium _ btn76 -->
+        <ImageButton
+            android:layout_marginTop="@dimen/distance"
+            android:layout_marginStart="@dimen/distance"
+            android:id="@+id/btn76"
+            android:layout_width="@dimen/itemWitdth"
+            android:layout_height="@dimen/itemHeight"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:contentDescription="@string/context_description_of_button_element"
+            android:src="@drawable/os_76_01"
+          />
+
+        <!-- Iridium _ btn77 -->
+        <ImageButton
+            android:layout_marginTop="@dimen/distance"
+            android:layout_marginStart="@dimen/distance"
+            android:id="@+id/btn77"
+            android:layout_width="@dimen/itemWitdth"
+            android:layout_height="@dimen/itemHeight"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:contentDescription="@string/context_description_of_button_element"
+            android:src="@drawable/lr_77_01"
+           />
+
+        <!-- Platinum _ btn78 -->
+        <ImageButton
+            android:layout_marginTop="@dimen/distance"
+            android:layout_marginStart="@dimen/distance"
+            android:id="@+id/btn78"
+            android:layout_width="@dimen/itemWitdth"
+            android:layout_height="@dimen/itemHeight"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:contentDescription="@string/context_description_of_button_element"
+            android:src="@drawable/pt_78_01"
+          />
+
+        <!-- Gold _ btn79 -->
+        <ImageButton
+            android:layout_marginTop="@dimen/distance"
+            android:layout_marginStart="@dimen/distance"
+            android:id="@+id/btn79"
+            android:layout_width="@dimen/itemWitdth"
+            android:layout_height="@dimen/itemHeight"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:contentDescription="@string/context_description_of_button_element"
+            android:src="@drawable/au_79_01"
+           />
+
+        <!-- Mercury _ btn80 -->
+        <ImageButton
+            android:layout_marginTop="@dimen/distance"
+            android:layout_marginStart="@dimen/distance"
+            android:id="@+id/btn80"
+            android:layout_width="@dimen/itemWitdth"
+            android:layout_height="@dimen/itemHeight"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:contentDescription="@string/context_description_of_button_element"
+            android:src="@drawable/hg_80_01"
+          />
+
+        <!-- Thallium _ btn81 -->
+        <ImageButton
+            android:layout_marginTop="@dimen/distance"
+            android:layout_marginStart="@dimen/distance"
+            android:id="@+id/btn81"
+            android:layout_width="@dimen/itemWitdth"
+            android:layout_height="@dimen/itemHeight"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:contentDescription="@string/context_description_of_button_element"
+            android:src="@drawable/tl_81_01"
+          />
+
+        <!-- Lead _ btn82 -->
+        <ImageButton
+            android:layout_marginTop="@dimen/distance"
+            android:layout_marginStart="@dimen/distance"
+            android:id="@+id/btn82"
+            android:layout_width="@dimen/itemWitdth"
+            android:layout_height="@dimen/itemHeight"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:contentDescription="@string/context_description_of_button_element"
+            android:src="@drawable/pb_82_01"
+           />
+
+        <!-- Bismuth _ btn83 -->
+        <ImageButton
+            android:layout_marginTop="@dimen/distance"
+            android:layout_marginStart="@dimen/distance"
+            android:id="@+id/btn83"
+            android:layout_width="@dimen/itemWitdth"
+            android:layout_height="@dimen/itemHeight"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:contentDescription="@string/context_description_of_button_element"
+            android:src="@drawable/bi_83_01"
+           />
+
+        <!-- Polonium _ btn84 -->
+        <ImageButton
+            android:layout_marginTop="@dimen/distance"
+            android:layout_marginStart="@dimen/distance"
+            android:id="@+id/btn84"
+            android:layout_width="@dimen/itemWitdth"
+            android:layout_height="@dimen/itemHeight"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:contentDescription="@string/context_description_of_button_element"
+            android:src="@drawable/po_84_01"
+          />
+
+        <!-- Astatine _ btn85 -->
+        <ImageButton
+            android:layout_marginTop="@dimen/distance"
+            android:layout_marginStart="@dimen/distance"
+            android:id="@+id/btn85"
+            android:layout_width="@dimen/itemWitdth"
+            android:layout_height="@dimen/itemHeight"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:contentDescription="@string/context_description_of_button_element"
+            android:src="@drawable/at_85_01"
+          />
+
+        <!-- Radon _ btn86 -->
+        <ImageButton
+            android:layout_marginTop="@dimen/distance"
+            android:layout_marginStart="@dimen/distance"
+            android:id="@+id/btn86"
+            android:layout_width="@dimen/itemWitdth"
+            android:layout_height="@dimen/itemHeight"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:contentDescription="@string/context_description_of_button_element"
+            android:src="@drawable/rn_86_01"
+            />
+    </TableRow>
+
+        <TableRow>
+            <!-- Francium _ btn87 -->
+            <ImageButton
+                android:layout_marginTop="@dimen/distance"
+                android:layout_marginStart="@dimen/distance"
+                android:id="@+id/btn87"
+                android:layout_width="@dimen/itemWitdth"
+                android:layout_height="@dimen/itemHeight"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/context_description_of_button_element"
+                android:src="@drawable/fr_87_01"
+              />
+
+            <!-- Radium _ btn88 -->
+            <ImageButton
+                android:layout_marginTop="@dimen/distance"
+                android:layout_marginStart="@dimen/distance"
+                android:id="@+id/btn88"
+                android:layout_width="@dimen/itemWitdth"
+                android:layout_height="@dimen/itemHeight"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/context_description_of_button_element"
+                android:src="@drawable/ra_88_01"
+              />
+
+            <!-- Lawrenciu _ btn103 -->
+            <ImageButton
+                android:layout_marginTop="@dimen/distance"
+                android:layout_marginStart="@dimen/distance"
+                android:id="@+id/btn103"
+                android:layout_width="@dimen/itemWitdth"
+                android:layout_height="@dimen/itemHeight"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/context_description_of_button_element"
+                android:src="@drawable/lr_103_01"
+              />
+
+
+            <!-- Rutherfor _ btn104 -->
+            <ImageButton
+                android:layout_marginTop="@dimen/distance"
+                android:layout_marginStart="@dimen/distance"
+                android:id="@+id/btn104"
+                android:layout_width="@dimen/itemWitdth"
+                android:layout_height="@dimen/itemHeight"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/context_description_of_button_element"
+                android:src="@drawable/rf_104_01"
+               />
+
+            <!-- Dubnium _ btn105 -->
+            <ImageButton
+                android:layout_marginTop="@dimen/distance"
+                android:layout_marginStart="@dimen/distance"
+                android:id="@+id/btn105"
+                android:layout_width="@dimen/itemWitdth"
+                android:layout_height="@dimen/itemHeight"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/context_description_of_button_element"
+                android:src="@drawable/db_105_01"
+              />
+
+            <!-- Seaborgiu _ btn106 -->
+            <ImageButton
+                android:layout_marginTop="@dimen/distance"
+                android:layout_marginStart="@dimen/distance"
+                android:id="@+id/btn106"
+                android:layout_width="@dimen/itemWitdth"
+                android:layout_height="@dimen/itemHeight"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/context_description_of_button_element"
+                android:src="@drawable/sg_106_01"
+              />
+
+            <!-- Bohrium _ btn107 -->
+            <ImageButton
+                android:layout_marginTop="@dimen/distance"
+                android:layout_marginStart="@dimen/distance"
+                android:id="@+id/btn107"
+                android:layout_width="@dimen/itemWitdth"
+                android:layout_height="@dimen/itemHeight"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/context_description_of_button_element"
+                android:src="@drawable/bh_107_01"
+              />
+
+            <!-- Hassium _ btn108 -->
+            <ImageButton
+                android:layout_marginTop="@dimen/distance"
+                android:layout_marginStart="@dimen/distance"
+                android:id="@+id/btn108"
+                android:layout_width="@dimen/itemWitdth"
+                android:layout_height="@dimen/itemHeight"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/context_description_of_button_element"
+                android:src="@drawable/hs_108_01"
+               />
+
+            <!-- Meitnerium _ btn109 -->
+            <ImageButton
+                android:layout_marginTop="@dimen/distance"
+                android:layout_marginStart="@dimen/distance"
+                android:id="@+id/btn109"
+                android:layout_width="@dimen/itemWitdth"
+                android:layout_height="@dimen/itemHeight"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/context_description_of_button_element"
+                android:src="@drawable/mt_109_01"
+              />
+
+            <!-- Ununilium _ btn110 -->
+            <ImageButton
+                android:layout_marginTop="@dimen/distance"
+                android:layout_marginStart="@dimen/distance"
+                android:id="@+id/btn110"
+                android:layout_width="@dimen/itemWitdth"
+                android:layout_height="@dimen/itemHeight"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/context_description_of_button_element"
+                android:src="@drawable/uun_110_01"
+             />
+
+            <!-- Unununium _ btn111 -->
+            <ImageButton
+                android:layout_marginTop="@dimen/distance"
+                android:layout_marginStart="@dimen/distance"
+                android:id="@+id/btn111"
+                android:layout_width="@dimen/itemWitdth"
+                android:layout_height="@dimen/itemHeight"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/context_description_of_button_element"
+                android:src="@drawable/uuu_111_01"
+              />
+
+            <!-- Ununbium _ btn112 -->
+            <ImageButton
+                android:layout_marginTop="@dimen/distance"
+                android:layout_marginStart="@dimen/distance"
+                android:id="@+id/btn112"
+                android:layout_width="@dimen/itemWitdth"
+                android:layout_height="@dimen/itemHeight"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/context_description_of_button_element"
+                android:src="@drawable/uub_112_01"
+               />
+
+
+            <!-- Ununtrium _ btn113 -->
+            <ImageButton
+                android:layout_marginTop="@dimen/distance"
+                android:layout_marginStart="@dimen/distance"
+                android:id="@+id/btn113"
+                android:layout_width="@dimen/itemWitdth"
+                android:layout_height="@dimen/itemHeight"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/context_description_of_button_element"
+                android:src="@drawable/uut_113_01"
+               />
+
+
+            <!-- Ununquadium _ btn114 -->
+            <ImageButton
+                android:layout_marginTop="@dimen/distance"
+                android:layout_marginStart="@dimen/distance"
+                android:id="@+id/btn114"
+                android:layout_width="@dimen/itemWitdth"
+                android:layout_height="@dimen/itemHeight"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/context_description_of_button_element"
+                android:src="@drawable/uuq_114_01"
+                />
+
+            <!-- Ununpentium _ btn115 -->
+            <ImageButton
+                android:layout_marginTop="@dimen/distance"
+                android:layout_marginStart="@dimen/distance"
+                android:id="@+id/btn115"
+                android:layout_width="@dimen/itemWitdth"
+                android:layout_height="@dimen/itemHeight"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/context_description_of_button_element"
+                android:src="@drawable/uup_115_01"
+               />
+
+            <!-- Ununhexium _ btn116 -->
+            <ImageButton
+                android:layout_marginTop="@dimen/distance"
+                android:layout_marginStart="@dimen/distance"
+                android:id="@+id/btn116"
+                android:layout_width="@dimen/itemWitdth"
+                android:layout_height="@dimen/itemHeight"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/context_description_of_button_element"
+                android:src="@drawable/uuh_116_01"
+               />
+
+            <!-- Ununseptium _ btn117 -->
+            <ImageButton
+                android:layout_marginTop="@dimen/distance"
+                android:layout_marginStart="@dimen/distance"
+                android:id="@+id/btn117"
+                android:layout_width="@dimen/itemWitdth"
+                android:layout_height="@dimen/itemHeight"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/context_description_of_button_element"
+                android:src="@drawable/uus_117_01"
+              />
+
+            <!-- Ununnoctium _ btn118 -->
+            <ImageButton
+                android:layout_marginTop="@dimen/distance"
+                android:layout_marginStart="@dimen/distance"
+                android:id="@+id/btn118"
+                android:layout_width="@dimen/itemWitdth"
+                android:layout_height="@dimen/itemHeight"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/context_description_of_button_element"
+                android:src="@drawable/uuo_118_01"
+             />
+
+        </TableRow>
+
+        <TableRow>
+            <TextView android:layout_width="@dimen/itemWitdth"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView android:layout_width="@dimen/itemWitdth"/>
+            <TextView android:layout_width="@dimen/itemWitdth"/>
+
+            <!-- Lanthanum _ btn57 -->
+            <ImageButton
+                android:layout_marginTop="@dimen/distance"
+                android:layout_marginStart="@dimen/distance"
+                android:id="@+id/btn57"
+                android:layout_width="@dimen/itemWitdth"
+                android:layout_height="@dimen/itemHeight"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/context_description_of_button_element"
+                android:src="@drawable/la_57_01"
+               />
+
+            <!-- Cerium _ btn58 -->
+            <ImageButton
+                android:layout_marginTop="@dimen/distance"
+                android:layout_marginStart="@dimen/distance"
+                android:id="@+id/btn58"
+                android:layout_width="@dimen/itemWitdth"
+                android:layout_height="@dimen/itemHeight"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/context_description_of_button_element"
+                android:src="@drawable/ce_58_01"
+             />
+
+            <!-- Praseodymium _ btn59 -->
+            <ImageButton
+                android:layout_marginTop="@dimen/distance"
+                android:layout_marginStart="@dimen/distance"
+                android:id="@+id/btn59"
+                android:layout_width="@dimen/itemWitdth"
+                android:layout_height="@dimen/itemHeight"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/context_description_of_button_element"
+                android:src="@drawable/pr_59_01"
+             />
+
+            <!-- Neodymiu _ btn60 -->
+            <ImageButton
+                android:layout_marginTop="@dimen/distance"
+                android:layout_marginStart="@dimen/distance"
+                android:id="@+id/btn60"
+                android:layout_width="@dimen/itemWitdth"
+                android:layout_height="@dimen/itemHeight"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/context_description_of_button_element"
+                android:src="@drawable/nd_60_01"
+              />
+
+            <!-- Promethiu _ btn61 -->
+            <ImageButton
+                android:layout_marginTop="@dimen/distance"
+                android:layout_marginStart="@dimen/distance"
+                android:id="@+id/btn61"
+                android:layout_width="@dimen/itemWitdth"
+                android:layout_height="@dimen/itemHeight"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/context_description_of_button_element"
+                android:src="@drawable/pm_61_01"
+               />
+
+            <!-- Samarium _ btn62 -->
+            <ImageButton
+                android:layout_marginTop="@dimen/distance"
+                android:layout_marginStart="@dimen/distance"
+                android:id="@+id/btn62"
+                android:layout_width="@dimen/itemWitdth"
+                android:layout_height="@dimen/itemHeight"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/context_description_of_button_element"
+                android:src="@drawable/sm_62_01"
+              />
+
+            <!-- Europium _ btn63 -->
+            <ImageButton
+                android:layout_marginTop="@dimen/distance"
+                android:layout_marginStart="@dimen/distance"
+                android:id="@+id/btn63"
+                android:layout_width="@dimen/itemWitdth"
+                android:layout_height="@dimen/itemHeight"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/context_description_of_button_element"
+                android:src="@drawable/eu_63_01"
+              />
+
+            <!-- Gadolinium _ btn64 -->
+            <ImageButton
+                android:layout_marginTop="@dimen/distance"
+                android:layout_marginStart="@dimen/distance"
+                android:id="@+id/btn64"
+                android:layout_width="@dimen/itemWitdth"
+                android:layout_height="@dimen/itemHeight"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/context_description_of_button_element"
+                android:src="@drawable/gd_64_01"
+               />
+
+            <!-- Terbium _ btn65 -->
+            <ImageButton
+                android:layout_marginTop="@dimen/distance"
+                android:layout_marginStart="@dimen/distance"
+                android:id="@+id/btn65"
+                android:layout_width="@dimen/itemWitdth"
+                android:layout_height="@dimen/itemHeight"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/context_description_of_button_element"
+                android:src="@drawable/tb_65_01"
+               />
+
+            <!-- Dysprosium _ btn66 -->
+            <ImageButton
+                android:layout_marginTop="@dimen/distance"
+                android:layout_marginStart="@dimen/distance"
+                android:id="@+id/btn66"
+                android:layout_width="@dimen/itemWitdth"
+                android:layout_height="@dimen/itemHeight"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/context_description_of_button_element"
+                android:src="@drawable/dy_66_01"
+               />
+
+            <!-- Holmium _ btn67 -->
+            <ImageButton
+                android:layout_marginTop="@dimen/distance"
+                android:layout_marginStart="@dimen/distance"
+                android:id="@+id/btn67"
+                android:layout_width="@dimen/itemWitdth"
+                android:layout_height="@dimen/itemHeight"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/context_description_of_button_element"
+                android:src="@drawable/ho_67_01"
+              />
+
+            <!-- Erbium _ btn68 -->
+            <ImageButton
+                android:layout_marginTop="@dimen/distance"
+                android:layout_marginStart="@dimen/distance"
+                android:id="@+id/btn68"
+                android:layout_width="@dimen/itemWitdth"
+                android:layout_height="@dimen/itemHeight"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/context_description_of_button_element"
+                android:src="@drawable/er_68_01"
+               />
+
+            <!-- Thulium _ btn69 -->
+            <ImageButton
+                android:layout_marginTop="@dimen/distance"
+                android:layout_marginStart="@dimen/distance"
+                android:id="@+id/btn69"
+                android:layout_width="@dimen/itemWitdth"
+                android:layout_height="@dimen/itemHeight"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/context_description_of_button_element"
+                android:src="@drawable/tm_69"
+              />
+
+            <!-- Ytterbium _ btn70 -->
+            <ImageButton
+                android:layout_marginTop="@dimen/distance"
+                android:layout_marginStart="@dimen/distance"
+                android:id="@+id/btn70"
+                android:layout_width="@dimen/itemWitdth"
+                android:layout_height="@dimen/itemHeight"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/context_description_of_button_element"
+                android:src="@drawable/yb_70_01"
+               />
+        </TableRow>
+
+        <TableRow>
+            <TextView android:layout_width="@dimen/itemWitdth"/>
+            <TextView android:layout_width="@dimen/itemWitdth"/>
+
+            <!-- Actinium _ btn89 -->
+            <ImageButton
+                android:layout_marginTop="@dimen/distance"
+                android:layout_marginStart="@dimen/distance"
+                android:id="@+id/btn89"
+                android:layout_width="@dimen/itemWitdth"
+                android:layout_height="@dimen/itemHeight"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/context_description_of_button_element"
+                android:src="@drawable/ac_89_01"
+             />
+
+            <!-- Thorium _ btn90 -->
+            <ImageButton
+                android:layout_marginTop="@dimen/distance"
+                android:layout_marginStart="@dimen/distance"
+                android:id="@+id/btn90"
+                android:layout_width="@dimen/itemWitdth"
+                android:layout_height="@dimen/itemHeight"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/context_description_of_button_element"
+                android:src="@drawable/th_90_01"
+              />
+
+            <!-- Protacttiniu _ btn91 -->
+            <ImageButton
+                android:layout_marginTop="@dimen/distance"
+                android:layout_marginStart="@dimen/distance"
+                android:id="@+id/btn91"
+                android:layout_width="@dimen/itemWitdth"
+                android:layout_height="@dimen/itemHeight"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/context_description_of_button_element"
+                android:src="@drawable/pa_91_01"
+             />
+
+            <!-- Uranium _ btn92 -->
+            <ImageButton
+                android:layout_marginTop="@dimen/distance"
+                android:layout_marginStart="@dimen/distance"
+                android:id="@+id/btn92"
+                android:layout_width="@dimen/itemWitdth"
+                android:layout_height="@dimen/itemHeight"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/context_description_of_button_element"
+                android:src="@drawable/u_92_01"
+              />
+
+            <!-- Neptunium _ btn93 -->
+            <ImageButton
+                android:layout_marginTop="@dimen/distance"
+                android:layout_marginStart="@dimen/distance"
+                android:id="@+id/btn93"
+                android:layout_width="@dimen/itemWitdth"
+                android:layout_height="@dimen/itemHeight"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/context_description_of_button_element"
+                android:src="@drawable/np_93_01"
+               />
+
+            <!-- Plutonium _ btn94 -->
+            <ImageButton
+                android:layout_marginTop="@dimen/distance"
+                android:layout_marginStart="@dimen/distance"
+                android:id="@+id/btn94"
+                android:layout_width="@dimen/itemWitdth"
+                android:layout_height="@dimen/itemHeight"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/context_description_of_button_element"
+                android:src="@drawable/pu_94_01"
+             />
+
+
+
+            <!-- Americium _ btn95 -->
+            <ImageButton
+                android:layout_marginTop="@dimen/distance"
+                android:layout_marginStart="@dimen/distance"
+                android:id="@+id/btn95"
+                android:layout_width="@dimen/itemWitdth"
+                android:layout_height="@dimen/itemHeight"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/context_description_of_button_element"
+                android:src="@drawable/am_95_01"
+             />
+
+            <!-- Curium _ btn96 -->
+            <ImageButton
+                android:layout_marginTop="@dimen/distance"
+                android:layout_marginStart="@dimen/distance"
+                android:id="@+id/btn96"
+                android:layout_width="@dimen/itemWitdth"
+                android:layout_height="@dimen/itemHeight"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/context_description_of_button_element"
+                android:src="@drawable/cm_96_01"
+              />
+
+            <!-- Berkelium _ btn97 -->
+            <ImageButton
+                android:layout_marginTop="@dimen/distance"
+                android:layout_marginStart="@dimen/distance"
+                android:id="@+id/btn97"
+                android:layout_width="@dimen/itemWitdth"
+                android:layout_height="@dimen/itemHeight"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/context_description_of_button_element"
+                android:src="@drawable/bk_97_01"
+              />
+
+            <!-- Californium _ btn98 -->
+            <ImageButton
+                android:layout_marginTop="@dimen/distance"
+                android:layout_marginStart="@dimen/distance"
+                android:id="@+id/btn98"
+                android:layout_width="@dimen/itemWitdth"
+                android:layout_height="@dimen/itemHeight"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/context_description_of_button_element"
+                android:src="@drawable/cf_98_01"
+              />
+
+            <!-- Einsteinium_ btn99 -->
+            <ImageButton
+                android:layout_marginTop="@dimen/distance"
+                android:layout_marginStart="@dimen/distance"
+                android:id="@+id/btn99"
+                android:layout_width="@dimen/itemWitdth"
+                android:layout_height="@dimen/itemHeight"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/context_description_of_button_element"
+                android:src="@drawable/es_99_01"
+             />
+
+            <!-- Fermium _ btn100 -->
+            <ImageButton
+                android:layout_marginTop="@dimen/distance"
+                android:layout_marginStart="@dimen/distance"
+                android:id="@+id/btn100"
+                android:layout_width="@dimen/itemWitdth"
+                android:layout_height="@dimen/itemHeight"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/context_description_of_button_element"
+                android:src="@drawable/fm_100_01"
+              />
+
+            <!-- mendeleviu  _ btn101 -->
+            <ImageButton
+                android:layout_marginTop="@dimen/distance"
+                android:layout_marginStart="@dimen/distance"
+                android:id="@+id/btn101"
+                android:layout_width="@dimen/itemWitdth"
+                android:layout_height="@dimen/itemHeight"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/context_description_of_button_element"
+                android:src="@drawable/md_101_01"
+             />
+
+            <!-- Nobelium _ btn102 -->
+            <ImageButton
+                android:layout_marginTop="@dimen/distance"
+                android:layout_marginStart="@dimen/distance"
+                android:id="@+id/btn102"
+                android:layout_width="@dimen/itemWitdth"
+                android:layout_height="@dimen/itemHeight"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:contentDescription="@string/context_description_of_button_element"
+                android:src="@drawable/no_102_01"
+              />
+        </TableRow>
+    </TableLayout>
+
+        <android.support.v7.widget.AppCompatImageButton
+            android:scaleType="fitXY"
+            android:src="@drawable/floatingbutton"
+            android:backgroundTint="@android:color/transparent"
+            android:layout_width="57dp"
+            android:layout_height="52dp"
+            android:layout_gravity="end"
+            android:id="@+id/btnLoadReactionWindow"/>
+    </FrameLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_margin="@dimen/margin"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@id/frameLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:id="@+id/layout_Detail"
+            android:background="@color/background_OtherMetal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+                <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:fontFamily="Myriad Pro"
+                    android:layout_weight="0.5"
+                    android:textColor="@color/colorText"
+                    android:textSize="@dimen/textSizeDetail"
+                    android:text="13"
+                    android:id="@+id/txtAtomic_number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:fontFamily="Myriad Pro"
+                    android:textAlignment="textEnd"
+                    android:layout_weight="0.5"
+                    android:textColor="@color/colorText"
+                    android:text="27"
+                    android:textSize="@dimen/textSizeDetail"
+                    android:id="@+id/txtAtomic_weight"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+                <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+
+                    android:fontFamily="Myriad Pro"
+                    android:layout_marginStart="@dimen/margin"
+                    android:textColor="@color/text_Solid"
+                    android:id="@+id/txtSymbol"
+                    android:textSize="@dimen/textSymbol"
+                    android:text="Al"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:fontFamily="Myriad Pro"
+                    android:textAlignment="center"
+                    android:text="Alumium"
+                    android:id="@+id/txtName"
+                    android:layout_below="@id/txtSymbol"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:fontFamily="Myriad Pro"
+                    android:textSize="@dimen/textSizeOfElectronic_cenfiguration"
+                    android:textColor="@color/colorText"
+                    android:textAlignment="center"
+                    android:text="[Ne] 3s2p1"
+                    android:layout_below="@id/txtName"
+                    android:id="@+id/txtElectronic_configuration"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:fontFamily="Myriad Pro"
+                    android:textSize="@dimen/textSizeOfElectronegativity"
+                    android:layout_marginBottom="@dimen/marginBottomOfElectronegativity"
+                    android:layout_marginStart="@dimen/marginLeftOfElectronegativity"
+                    android:textColor="@color/colorText"
+                    android:text="1.61"
+                    android:id="@+id/txtElectronegativity"
+                    android:layout_alignBottom="@id/txtSymbol"
+                    android:layout_marginEnd="3dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <View
+                    android:fontFamily="Myriad Pro"
+                    android:background="@color/colorPrimary"
+                    android:layout_below="@id/txtElectronic_configuration"
+                    android:id="@+id/view"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"/>
+
+                <TextView
+                    android:fontFamily="Myriad Pro"
+                    android:textSize="@dimen/textSizeDetail"
+                    android:textColor="@color/colorText"
+                    android:text="3"
+                    android:id="@+id/txtOxidation_states"
+                    android:textAlignment="center"
+                    android:layout_below="@id/view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+
+            </LinearLayout>
+
+            <Button
+                android:layout_gravity="center"
+                android:id="@+id/btnDetail"
+                android:background="@android:color/transparent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </FrameLayout>
+
+        <ImageView
+            android:layout_marginTop="@dimen/margin"
+            android:scaleType="fitXY"
+            android:src="@drawable/text_color"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+</RelativeLayout>

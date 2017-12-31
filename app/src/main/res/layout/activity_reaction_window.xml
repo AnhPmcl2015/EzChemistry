@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.theanh.ezchemistry.ReactionWindow">
+
+    <RelativeLayout
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+            <FrameLayout
+                android:id="@+id/frameLayout"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:scaleType="fitXY"
+                    android:src="@drawable/resultlayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp" />
+
+                <LinearLayout
+                    android:background="@android:color/transparent"
+                    android:layout_marginEnd="3dp"
+                    android:layout_marginStart="3dp"
+                    android:layout_marginTop="26dp"
+                    android:gravity="center_horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp">
+
+                    <TextView
+                        android:layout_marginTop="2dp"
+                        android:id="@+id/txtLeft"
+                        android:textColor="#000"
+                        android:text="Test"
+                        android:textSize="18sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <ImageView
+                        android:src="@drawable/onewayreaction"
+                        android:layout_marginTop="4dp"
+                        android:id="@+id/imgWayReaction"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_width="30dp"
+                        android:layout_height="25dp" />
+
+                    <TextView
+                        android:layout_marginTop="2dp"
+                        android:id="@+id/txtRight"
+                        android:textColor="#000"
+                        android:text="Test"
+                        android:textSize="18sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/frameLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_marginStart="10dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/historylayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+                <ListView
+
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginEnd="30dp"
+                    android:layout_marginStart="30dp"
+                    android:background="@android:color/transparent"
+                    android:id="@+id/listHistory"
+                    android:layout_marginTop="40dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+
+
+            </FrameLayout>
+
+    </RelativeLayout>
+
+    <ListView
+        android:visibility="invisible"
+        android:layout_marginRight="200dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/background_Search"
+        android:id="@+id/listReaction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</FrameLayout>

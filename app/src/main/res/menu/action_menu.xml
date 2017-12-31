@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/action_search"
+        android:title="search"
+        android:icon="@mipmap/search"
+        app:showAsAction="ifRoom|collapseActionView"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        />
+
+
+    <item android:id="@+id/action_share"
+        android:title="share"
+        android:icon="@mipmap/share"
+        app:showAsAction="ifRoom"
+        app:actionProviderClass="android.support.v7.widget.ShareActionProvider"
+        />
+
+    <item android:id="@+id/action_wiki"
+        android:title="wiki"
+        android:icon="@mipmap/wiki"
+        app:showAsAction="ifRoom"
+        />
+</menu>
